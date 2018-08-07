@@ -1,0 +1,2 @@
+# Exercice-array-3
+En utilisant les deux fonctions count_chars($chaine,1) qui retourne le nombre d’occurrence de chaque caractère dans la chaine entrée en paramètre et la fonction chr qui retourne le caractère du code ASCII introduit en paramètre, afficher chaque caractère suivi de son nombre d’occurrence. Exemple :  pour la chaine "ahla"  Si on passe  97 comme paramètre ( lecode ascii du caractère "a" )   Le resultat devra etre : 2 ( puisque le caractère "a" se repète 2 fois ) 
