@@ -1,0 +1,24 @@
+//Author: Oussoumane Mahaman Madani (GoMyCode)
+
+<?php
+/**
+ * Created by PhpStorm.
+ * User: comgoon
+ * Date: 8/7/18
+ * Time: 12:20 PM
+ */
+
+
+$data = "ala ljk klk";
+$da = count_chars($data, 1);
+//var_dump($da);
+echo "<br>";
+//var_dump($da[97]);//key is 97
+//var_dump(count_chars("madani"));
+echo "<br>";
+
+//intirating through the $data array
+foreach ($da as $i => $val) {
+   echo   "$i ", "==> ", $da[$i], "<br>"; //outputing the "ASCII code" ==> "it's number of occurence"
+}
+?>
